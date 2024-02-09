@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body style="background-image: url('sunjpg'); background-size: cover; background-repeat: no-repeat;"></body>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Quote Generator</h1>
+        <h3>by: Ch Rohail</h3>
+        <div id="quote-container">
+            <p id="quote-text"></p>
+            <p id="quote-author"></p>
+        </div>
+        <button onclick="getRandomQuote()">Get Random Quote</button>
+    </div>
+   <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#quote-container {
+    margin-top: 20px;
+}
+
+#quote-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#quote-author {
+    font-style: italic;
+    color: #555;
+}
+
+
+
+   </style>
+    <script src="Quote.js"></script>
+</body>
+</html>
